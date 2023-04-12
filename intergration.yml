@@ -1,17 +1,7 @@
 # Required
 message: |
-  Integrated for 23 V23-Bata
-# Not required, now default is V23-Beta
-milestone: V23-Beta
-# Required
+  golang-defaults integration for V23-Bata
 repos: 
-  # Required
-  - repo: linuxdeepin/examplerepo
-    # Not required
-    tag: 5.11.22
-    # Not required
+  - repo: deepin-community/golang-defaults
+    tag: 2%1.20_1
     order: 0
-    # Not required, but need one of tag and tagsha info
-    # When use tag info, intergration workflow will check repository tag and build tag version
-    # When use tagsha info, interation workflow will build tagsha version, It doesn't matter whether the tag exists.
-    tagsha: "********************************"
